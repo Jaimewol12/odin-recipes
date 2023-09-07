@@ -1,0 +1,123 @@
+
+* {
+    font-family: "Trebuchet MS", sans-serif;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, .description {
+    text-align: center;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+#index_title {
+    background-color: aqua;
+    padding: 20px 0;
+}
+
+#spaghetti_title {
+    background-color: yellow;
+    padding: 20px 0;
+}
+
+#empanada_title {
+    background-color: darkorange;
+    padding: 20px 0;
+}
+
+#manjar_title {
+    background-color: chocolate;
+    padding: 20px 0;
+}
+
+.div_links {
+    width: 1300px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.links {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 10px 60px;
+    text-align: center;
+    font-size: 48px;
+    border: 10px solid navy;
+}
+
+ul, ol {
+    padding: 0;
+}
+
+.ul_ingredientes{
+    width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ingredientes {
+    width: 400px;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.ingredientes.spaghetti {
+    border: 10px solid wheat;
+}
+
+.ingredientes.empanada {
+    border: 10px solid lightsalmon;
+}
+
+.ingredientes.manjar {
+    border: 10px solid peru;
+}
+
+.ol_steps {
+    width: 1900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.steps {
+    width: 1800px;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.steps.empanada {
+    border: 10px solid rgb(226, 160, 44);
+}
+
+.steps.spaghetti {
+    border: 10px solid rgb(222, 177, 0);
+}
+
+.steps.manjar {
+    border: 10px solid rgb(180, 48, 0);
+}
+
+.div_images {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.food_image {
+    width: 500px;
+    height: auto;
+}   
